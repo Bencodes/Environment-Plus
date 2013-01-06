@@ -22,7 +22,9 @@ Common Storage Paths ([Source](http://stackoverflow.com/questions/13976982/andro
 
 
 
-I was looking for more of a dynamic solution. It took some digging but I found a method inside [StorageManager](http://developer.android.com/reference/android/os/storage/StorageManager.html) that was marked as hidden. I wrote a little wrapper class around it that still supports everything `android.os.Environment` does but adds support for dual sdcards (possibly more).
+
+
+I was looking for more of a dynamic solution. It took some digging but I found a method inside [StorageManager](http://developer.android.com/reference/android/os/storage/StorageManager.html) that was marked as hidden. I wrote a little wrapper class around it that still supports everything [`android.os.Environment`](http://stackoverflow.com/questions/13976982/android-removable-storage-external-sdcard-path-by-manufacturers) does but adds support for dual sdcards (possibly more).
 
 
 
